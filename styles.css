@@ -1,0 +1,527 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    Background-color: #202020;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #A9A9A9;
+}
+
+
+
+li:last-child {
+    border-left: 1px solid #A9A9A9;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #00b3b3;
+}
+
+.active {
+    background-color: #008080;
+}
+
+h1 {
+    font-family: Cinzel, serif;
+    font-size: 46px;
+}
+
+.instagram {
+    margin-left: 97%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.facebook {
+    margin-left: 97%;
+    width: 40px;
+    height: 40px;
+}
+
+
+div.photo {    
+    margin: 100px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width:auto;
+    height:auto;
+}
+
+div.photo:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    text-align: center;
+}
+
+/*JEANS CARDS*/
+
+
+div.jean-rigido-celeste {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+
+
+div.jean-corte-chino-verde {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+
+div.jean-negro-elastizado {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+
+/*CAMISAS CARDS*/
+
+
+div.camisa-a-cuadros-gris-oscuro {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.camisa-lisa-negra-verde-celeste-etc {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.camisa-rosa-claro-gris-blanco-etc {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.camisa-gris-claro-hombre-talle-54 {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+/*REMERAS CARDS*/
+
+div.remera-manga-corta-mostaza-negra-azul-etc {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.remera-manga-corta-negra-azul-gris-claro-etc {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.remera-manga-corta-negra-beige-gris-claro-etc {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.remera-manga-corta-roja-azul-gris-oscuro-etc {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background-image: url(background\ 1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*BUZOS CARDS*/
+
+/*BUZOS RUSTICOS*/
+
+div.buzo-rustico-azul-sin-capucha {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.buzo-rustico-negro-sin-capucha {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.buzo-rustico-rojo-sin-capucha {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+/*BUZOS CON FRIZA*/
+
+div.buzo-con-friza-azul-y-celeste-sin-capucha-y-con-puños {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.buzo-con-friza-gris-claro-con-capucha-y-puños {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.buzo-con-friza-rojo-con-capucha-y-puños {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.buzo-con-friza-rojo-sin-capucha-con-puños {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+/*CHALECOS*/
+
+/*ROMPE VIENTOS*/
+
+div.chaleco-rompe-viento-celeste {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+/*CHALECOS TEJIDOS*/
+
+div.chaleco-tejido-azul-cuello-en-v {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.chaleco-tejido-rojo-cuello-en-v {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+/*CAMPERAS CARDS*/
+
+div.campera-con-cuello-celeste {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.campera-negra-y-gris-con-capucha {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.campera-polar-negra {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.campera-sin-capucha-azul-marino-con-rayas-azul-oscuro {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.campera-verde-militar-sin-bolsillos {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.sweater-azul-con-rayas-blancas {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.sweater-azul-frances-con-detalles-en-tejido {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.sweater-gris-oscuro-y-rojo-con-detalles {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.sweater-negro-con-detalles-en-tejido {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+/*MEDIDAS*/
+
+div.buzo-rustico-azul-sin-capucha {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.Camisa-a-cuadros-gris-oscuro-medida {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.campera-con-cuello-celeste-medida {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.chaleco-rompe-viento-celeste-medida {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.Jean-corte-chino-verde-medida {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.chomba-manga-corta-azul-celeste-azzul-oscuro-etc-con-detalles-medidas {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+div.sweater-azul-con-rayas-blancas-medida {
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+.h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.h5 {
+    background-color: rgb(163, 163, 163);
+}
+
+
+div.talles {
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: overline;
+    text-decoration-color:lightslategray;
+}
