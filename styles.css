@@ -525,3 +525,65 @@ div.talles {
     text-decoration: overline;
     text-decoration-color:lightslategray;
 }
+
+/*RESPONSIVE DESIGN*/
+
+@media screen and (max-width: 900px) {
+
+#bar {
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    background: #3c3c3c;
+    z-index: 10000;
+    display: none;
+
+}
+
+.icon-menu {
+    display: block;
+    color: rgb(39, 39, 39);
+    font-size: 30px;
+    left: 20px;
+    margin-top: 18px;
+    position: absolute;
+    z-index: 10000;
+}
+
+
+header {
+    height: 70px;
+    width: 100%;
+    padding-bottom: 40px;
+    top: 0;
+    z-index: 10;
+}
+
+
+.nav-bar {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+    transform: translateX(-100%);
+    transition: all 0.8s ease-in;
+}
+
+
+header .nav-bar ul li {
+    display: block;
+    border-bottom: 1px rgba(225, 225, 225, 0.5);
+    padding: auto 0px;
+    width: 321px;
+    height: auto;
+    text-align: center;
+}
+
+
+#bar:checked ~ .nav-bar {
+    transform: translateX(0%);
+    transition: all 1.0s ease-out;
+} 
+
+}
